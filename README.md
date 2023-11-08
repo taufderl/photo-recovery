@@ -13,6 +13,10 @@ pip3 install pyexiftool
 
 3. Check scalpel config for file formats. I just needed jpgs for now:
 ```
+[...]
+	jpg	y	5242880		\xff\xd8\xff???Exif		\xff\xd9	REVERSE
+	jpg	y	5242880		\xff\xd8\xff???JFIF		\xff\xd9	REVERSE
+[...]
 ```
 
 4. Run scalpel
